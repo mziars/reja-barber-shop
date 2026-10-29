@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050609">
+  <meta name="description" content="REJA Barber Shop. Cortes, degradados y estilo propio. Reservá tu turno por WhatsApp.">
+  <title>REJA Barber Shop | Cortes con actitud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="intro" id="intro" aria-label="Presentación de REJA Barber Shop">
+    <div class="intro-glow"></div>
+    <img class="intro-logo intro-logo-base" src="logo.jpeg" alt="REJA Barber Shop">
+    <img class="intro-logo intro-logo-top" src="logo.jpeg" alt="">
+    <img class="intro-logo intro-logo-bottom" src="logo.jpeg" alt="">
+    <div class="intro-line"></div>
+    <span class="intro-hint">REJA BARBER SHOP</span>
+    <button class="skip-intro" id="skipIntro" type="button">ENTRAR ↗</button>
+  </div>
+
+  <button class="menu-trigger" id="menuTrigger" type="button" aria-expanded="false" aria-controls="sideMenu" aria-label="Abrir menú">
+    <span class="barber-pole" aria-hidden="true"><span></span></span>
+    <span class="menu-trigger-label">MENÚ</span>
+    <span class="menu-trigger-icon" aria-hidden="true">＋</span>
+  </button>
+  <div class="menu-backdrop" id="menuBackdrop"></div>
+  <aside class="side-menu" id="sideMenu" aria-hidden="true">
+    <div class="drawer-top">
+      <a class="side-brand" href="#inicio"><img src="logo.jpeg" alt="REJA Barber Shop"><span>REJA<small>BARBER SHOP</small></span></a>
+      <button class="menu-close" id="menuClose" type="button" aria-label="Cerrar menú">×</button>
+    </div>
+    <span class="side-label">EXPLORÁ REJA</span>
+    <nav class="side-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio"><span>01</span> Inicio <b>↗</b></a>
+      <a href="#trabajos"><span>02</span> Trabajos <b>↗</b></a>
+      <a href="#servicios"><span>03</span> Servicios <b>↗</b></a>
+      <a href="#turnos"><span>04</span> Turnos y contacto <b>↗</b></a>
+      <a href="https://www.instagram.com/rejabarbershop/" target="_blank" rel="noopener noreferrer"><span>05</span> Instagram <b>↗</b></a>
+    </nav>
+    <div class="side-bottom"><span class="side-dot"></span><p>PRECISIÓN<br>EN CADA DETALLE</p><small>PARANÁ · ENTRE RÍOS</small></div>
+    <a class="side-book" href="#turnos">RESERVÁ TU TURNO <span>↗</span></a>
+  </aside>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img class="hero-photo is-active" src="3.jpeg" alt="" fetchpriority="high">
+      <img class="hero-photo" src="5.jpeg" alt="" aria-hidden="true">
+      <img class="hero-photo" src="4.jpeg" alt="" aria-hidden="true">
+      <div class="hero-photo-shade"></div>
+      <div class="hero-bg-mark">REJA</div>
+      <div class="hero-content">
+        <img class="hero-brand-logo" src="logo.jpeg" alt="Logo REJA Barber Shop">
+        <p class="eyebrow"><span></span> BARBERÍA · ESTILO · ACTITUD</p>
+        <h1>NO ES SOLO<br>UN <em>CORTE.</em><br>ES TU ESTILO.</h1>
+        <p class="hero-copy">Detalles que hacen la diferencia. Tu próximo corte empieza acá.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#turnos">RESERVAR TURNO <span>↗</span></a><a class="text-link" href="#servicios">VER SERVICIOS <span>↓</span></a></div>
+      </div>
+      <div class="hero-bottom"><span>PRECISIÓN EN CADA DETALLE</span><span>REJA / 001</span></div>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow"><span></span> TU ESTILO HABLA POR VOS</p>
+      <h2>FRESCO. LIMPIO.<br><em>BIEN REJA.</em></h2>
+      <p>Degradados prolijos, líneas definidas y un acabado que se nota. Vení por el corte, salí con actitud.</p>
+    </section>
+
+    <section class="gallery section-pad" id="trabajos">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> TRABAJOS REALES</p><h2>EL ESTILO<br><em>SE VE.</em></h2></div><span class="section-number">01 — GALERÍA</span></div>
+      <p class="gallery-intro">Cortes, degradados y detalles de REJA Barber Shop.</p>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-tall"><img src="8.jpeg" alt="Corte con degradado alto y barba perfilada" loading="lazy"><figcaption><span>01 / FADE</span><strong>DETALLE Y PRECISIÓN</strong></figcaption></figure>
+        <figure class="gallery-item"><img src="7.jpeg" alt="Corte degradado con textura arriba" loading="lazy"><figcaption><span>02 / TEXTURA</span><strong>FRESCO Y PROLIJO</strong></figcaption></figure>
+        <figure class="gallery-item"><img src="5.jpeg" alt="Barbero trabajando en un corte degradado" loading="lazy"><figcaption><span>03 / EN PROCESO</span><strong>CADA DETALLE CUENTA</strong></figcaption></figure>
+        <figure class="gallery-item"><img src="6.jpeg" alt="Barbero con remera de REJA Barber Shop" loading="lazy"><figcaption><span>04 / IDENTIDAD</span><strong>ESTILO REJA</strong></figcaption></figure>
+        <figure class="gallery-item"><img src="2.jpeg" alt="Barbero realizando un corte en la nuca" loading="lazy"><figcaption><span>05 / CORTE</span><strong>TRABAJO EN DETALLE</strong></figcaption></figure>
+        <figure class="gallery-item gallery-wide"><img src="3.jpeg" alt="Sillón y espacio de trabajo de la barbería" loading="lazy"><figcaption><span>06 / EL ESPACIO</span><strong>BIENVENIDO A REJA</strong></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="servicios">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> LO QUE HACEMOS</p><h2>EL CORTE<br><em>A TU MANERA.</em></h2></div><span class="section-number">01 — SERVICIOS</span></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-index">01</span><div class="service-symbol">✂</div><h3>CORTE</h3><p>Clásico, moderno o como lo tenés en mente.</p><span class="service-arrow">↗</span></article>
+        <article class="service-card"><span class="service-index">02</span><div class="service-symbol">◒</div><h3>FADE / DEGRADÉ</h3><p>Transiciones limpias y precisión en cada detalle.</p><span class="service-arrow">↗</span></article>
+        <article class="service-card"><span class="service-index">03</span><div class="service-symbol">✦</div><h3>BARBA & PERFILADO</h3><p>Definición, prolijidad y terminación a tu medida.</p><span class="service-arrow">↗</span></article>
+      </div>
+      <p class="demo-note">Servicios de muestra · Confirmar opciones con la barbería.</p>
+    </section>
+
+    <section class="booking section-pad" id="turnos">
+      <div class="booking-art"><img src="logo.jpeg" alt="REJA Barber Shop"></div>
+      <div class="booking-copy"><p class="eyebrow"><span></span> TU PRÓXIMA VERSIÓN</p><h2>EL PRÓXIMO<br>CORTE <em>ES TUYO.</em></h2><p>Escribinos y coordiná tu turno. Fácil, directo y sin vueltas.</p><a class="button button-primary whatsapp-link" href="#" target="_blank" rel="noopener">PEDIR TURNO POR WHATSAPP <span>↗</span></a><small>Demo de MZIAR Studio · El contacto se configura con el número real.</small></div>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#inicio">REJA<span>®</span></a><p>BARBER SHOP · TU ESTILO, TUS REGLAS.</p><a class="mziar" href="#inicio">WEB POR <strong>MZIAR studio</strong> ↗</a></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

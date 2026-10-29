@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050609">
+<meta name="description" content="Reservá tu próximo corte en REJA Barber Shop, Paraná.">
+<title>Reservá tu turno | REJA Barber Shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#050609;--panel:#0b0e15;--blue:#1768ff;--red:#f04444;--white:#f4f6fb;--muted:#a8adba}
+*{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 75% 20%,#10295a55,transparent 38%),linear-gradient(145deg,#050609,#090c13 60%,#050609);color:var(--white);font-family:Inter,Arial,sans-serif;display:flex;flex-direction:column}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px clamp(20px,6vw,76px);border-bottom:1px solid #ffffff14}
+.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none}.brand img{width:58px;height:58px;object-fit:contain}.brand strong{display:block;font:900 25px 'Barlow Condensed',sans-serif;letter-spacing:2px}.brand small{display:block;font-size:9px;letter-spacing:3px;color:var(--muted)}
+.back{color:#dce5ff;text-decoration:none;font-size:12px;font-weight:700;letter-spacing:1px}.back:hover{color:#6fa0ff}
+main{width:min(100% - 36px,980px);margin:auto;flex:1;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(28px,6vw,80px);padding:55px 0 65px}
+.visual{position:relative;min-height:420px;display:grid;place-items:center;border:1px solid #ffffff12;background:linear-gradient(135deg,#0c1320dd,#050609ee);overflow:hidden}
+.visual:before{content:"";position:absolute;width:340px;height:340px;border:1px solid #1768ff55;border-radius:50%;box-shadow:0 0 90px #1768ff19,inset 0 0 70px #1768ff10}
+.visual:after{content:"REJA";position:absolute;font:900 clamp(90px,15vw,170px)/1 'Barlow Condensed',sans-serif;color:#ffffff08;letter-spacing:-5px;transform:rotate(-90deg);right:-44px;bottom:5px}
+.visual img{position:relative;z-index:1;width:min(76%,330px);max-height:340px;object-fit:contain;filter:drop-shadow(0 0 32px #1768ff28)}
+.copy .eyebrow{font-size:10px;letter-spacing:3px;color:#8eafff;font-weight:800}.eyebrow i{display:inline-block;width:22px;height:2px;background:var(--red);vertical-align:middle;margin-right:8px}
+h1{font:900 clamp(48px,7vw,78px)/.9 'Barlow Condensed',sans-serif;letter-spacing:-1px;margin:20px 0}h1 em{font-style:normal;color:#4382ff}
+.copy p{color:var(--muted);font-size:14px;line-height:1.8;max-width:410px}
+.steps{display:flex;gap:10px;margin:25px 0}.step{border:1px solid #ffffff16;padding:10px 12px;color:#c7ccda;font-size:10px;letter-spacing:1px}.step b{color:#6d9aff;margin-right:6px}
+.cta{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;max-width:400px;padding:18px 20px;margin-top:24px;background:var(--blue);color:white;text-decoration:none;font-size:12px;font-weight:900;letter-spacing:1px;border:1px solid #7da7ff;box-shadow:0 12px 38px #1768ff30;transition:transform .2s,background .2s}.cta:hover{transform:translateY(-2px);background:#2c76ff}.cta span{font-size:20px}
+.note{display:block;margin-top:13px;font-size:10px;color:#71798b;line-height:1.6}
+footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px clamp(20px,6vw,76px);border-top:1px solid #ffffff12;color:#777f90;font-size:9px;letter-spacing:2px}footer strong{color:#dce4f8}
+@media(max-width:680px){header{padding:16px 18px}.brand img{width:48px;height:48px}.brand strong{font-size:22px}.back{font-size:10px}main{grid-template-columns:1fr;gap:28px;padding:28px 0 42px}.visual{min-height:240px;order:0}.visual img{width:190px;max-height:210px}.visual:before{width:220px;height:220px}.visual:after{font-size:100px;right:-25px}.copy{order:1}h1{font-size:58px}.steps{flex-wrap:wrap}.cta{max-width:none}footer{font-size:8px}}
+</style>
+</head>
+<body>
+<header>
+<a class="brand" href="index.html"><img src="logo.jpeg" alt=""><span><strong>REJA</strong><small>BARBER SHOP</small></span></a>
+<a class="back" href="index.html">← VOLVER A LA WEB</a>
+</header>
+<main>
+<div class="visual"><img src="logo.jpeg" alt="REJA Barber Shop"></div>
+<section class="copy">
+<div class="eyebrow"><i></i> RESERVAS OFICIALES · REJA</div>
+<h1>TU PRÓXIMO<br>CORTE <em>EMPIEZA ACÁ.</em></h1>
+<p>Elegí el día y horario que te quede mejor. Vas a continuar en la agenda de turnos de REJA Barber Shop.</p>
+<div class="steps"><span class="step"><b>01</b> ELEGÍ HORARIO</span><span class="step"><b>02</b> CONFIRMÁ TU TURNO</span></div>
+<a class="cta" href="https://trimito.com.ar/wb/?b=reja-barber-shop" target="_blank" rel="noopener noreferrer">ABRIR AGENDA DE TURNOS <span>↗</span></a>
+<small class="note">La reserva se completa en el sistema de turnos de REJA. Esta pantalla conserva la identidad visual de la barbería.</small>
+</section>
+</main>
+<footer><span>REJA BARBER SHOP · PARANÁ, ENTRE RÍOS</span><span>WEB POR <strong>MZIAR STUDIO</strong></span></footer>
+</body>
+</html>
