@@ -196,7 +196,10 @@ body.menu-open .menu-backdrop{opacity:1;visibility:visible}
 .side-nav a b{margin-left:auto;color:#ef2636;font-size:15px;font-weight:500}
 .side-nav a:hover,.side-nav a.active{background:#11141d;color:#fff;border-left-color:#1264ff}
 .side-bottom{margin-top:auto;padding-top:22px}
-.side-book{margin-top:22px;padding:16px 14px}
+.side-address{margin-top:20px;padding:13px 12px;border:1px solid #ffffff24;background:#11141d;display:flex;flex-direction:column;gap:6px}
+.side-address{color:inherit;text-decoration:none;cursor:pointer;transition:border-color .2s,background .2s}.side-address:hover{border-color:#1264ff;background:#151a27}.side-address small{font-size:8px;font-weight:800;letter-spacing:.2em;color:#858a97}
+.side-address strong{font:800 17px/1.1 "Barlow Condensed",sans-serif;letter-spacing:.08em;color:#fff}
+.side-book{margin-top:14px;padding:16px 14px}
 .prices{background:#0a0b10;color:#f6f5f2}
 .price-panel{position:relative;overflow:hidden;border:1px solid #ffffff20;background:linear-gradient(120deg,#131722,#090a0e);padding:clamp(24px,5vw,48px);max-width:760px}
 .price-panel:after{content:"$";position:absolute;right:18px;top:-40px;font:900 230px/.9 'Barlow Condensed',sans-serif;color:#1264ff0b;pointer-events:none}
@@ -340,3 +343,17 @@ body.menu-open .menu-backdrop{opacity:1;visibility:visible}
 .intro-line{animation:slash .55s ease-out .9s forwards}
 .intro-hint{animation:hintOut .5s ease 1.1s forwards}
 .skip-intro{z-index:55}
+
+
+/* MARQUESINA SUPERIOR REJA */
+.reja-ticker{position:relative;z-index:40;width:100%;height:38px;overflow:hidden;display:flex;align-items:center;background:#1264ff;border-bottom:2px solid #ef2636;box-shadow:0 3px 14px #1264ff35}
+.reja-ticker-track{display:flex;align-items:center;gap:30px;width:max-content;white-space:nowrap;animation:rejaTickerMove 28s linear infinite;padding-left:100%;font:800 13px/1 'Barlow Condensed',Impact,sans-serif;letter-spacing:.12em;color:#fff;text-shadow:2px 2px 0 #ef2636,-1px -1px 0 #ef2636,0 0 8px #ef2636}
+.reja-ticker-track i{font-style:normal;color:#fff;font-size:15px;text-shadow:2px 2px 0 #ef2636}
+@keyframes rejaTickerMove{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+@media(prefers-reduced-motion:reduce){.reja-ticker-track{animation:none;padding-left:12px;justify-content:center;width:100%;gap:12px;font-size:10px}}
+
+/* FOTO EN LA TARJETA DE SERVICIO CORTE */
+.service-photo{display:block;width:100%;height:110px;object-fit:cover;object-position:center;border:1px solid #ffffff24;margin:18px 0 15px}
+
+/* ENCUADRE DE BARBA EN TARJETA DE SERVICIOS */
+.service-photo-beard{object-position:center 63%}
